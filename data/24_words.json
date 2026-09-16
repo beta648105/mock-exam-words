@@ -1,9 +1,18 @@
 [
-  { "number": 1, "word": "uncertainty", "meaning_raw": "불확실성", "meaning_answers": ["불확실성"] },
-  { "number": 2, "word": "inflexible", "meaning_raw": "경직된, 융통성 없는", "meaning_answers": ["경직된", "융통성 없는"] },
-  { "number": 3, "word": "predictable", "meaning_raw": "예측 가능한", "meaning_answers": ["예측 가능한"] },
-  { "number": 4, "word": "enormous", "meaning_raw": "막대한, 엄청난", "meaning_answers": ["막대한", "엄청난"] },
-  { "number": 5, "word": "come to fruition", "meaning_raw": "결실을 맺다", "meaning_answers": ["결실을 맺다"] },
-  { "number": 6, "word": "worthless", "meaning_raw": "가치 없는, 쓸모없는", "meaning_answers": ["가치 없는", "쓸모없는"] },
-  { "number": 7, "word": "bear in mind", "meaning_raw": "염두에 두다", "meaning_answers": ["염두에 두다"] }
+  { "number": 1, "word": "figuratively", "meaning_raw": "비유적으로", "meaning_answers": ["비유적으로"] },
+  { "number": 2, "word": "let go of", "meaning_raw": "~을 내려놓다, 놓아주다", "meaning_answers": ["~을 내려놓다", "놓아주다"] },
+  { "number": 3, "word": "control", "meaning_raw": "통제", "meaning_answers": ["통제"] },
+  { "number": 4, "word": "be aware", "meaning_raw": "인식하다, 알아차리다", "meaning_answers": ["인식하다", "알아차리다"] },
+  { "number": 5, "word": "uncertainty", "meaning_raw": "불확실성", "meaning_answers": ["불확실성"] },
+  { "number": 6, "word": "frightened", "meaning_raw": "두려워하는", "meaning_answers": ["두려워하는"] },
+  { "number": 7, "word": "inflexible", "meaning_raw": "융통성 없는, 경직된", "meaning_answers": ["융통성 없는", "경직된"] },
+  { "number": 8, "word": "pretend", "meaning_raw": "~인 척하다", "meaning_answers": ["~인 척하다"] },
+  { "number": 9, "word": "predictable", "meaning_raw": "예측 가능한", "meaning_answers": ["예측 가능한"] },
+  { "number": 10, "word": "enormous", "meaning_raw": "막대한, 엄청난", "meaning_answers": ["막대한", "엄청난"] },
+  { "number": 11, "word": "cling to", "meaning_raw": "~에 매달리다, 집착하다", "meaning_answers": ["~에 매달리다", "집착하다"] },
+  { "number": 12, "word": "desperately", "meaning_raw": "필사적으로, 절박하게", "meaning_answers": ["필사적으로", "절박하게"] },
+  { "number": 13, "word": "turn out", "meaning_raw": "~한 결과가 되다", "meaning_answers": ["~한 결과가 되다"] },
+  { "number": 14, "word": "come to fruition", "meaning_raw": "결실을 맺다, 실현되다", "meaning_answers": ["결실을 맺다", "실현되다"] },
+  { "number": 15, "word": "literally", "meaning_raw": "문자 그대로", "meaning_answers": ["문자 그대로"] },
+  { "number": 16, "word": "bear in mind", "meaning_raw": "명심하다, 염두에 두다", "meaning_answers": ["명심하다", "염두에 두다"] }
 ]

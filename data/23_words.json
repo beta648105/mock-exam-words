@@ -1,9 +1,18 @@
 [
-  { "number": 1, "word": "variation", "meaning_raw": "변이", "meaning_answers": ["변이"] },
-  { "number": 2, "word": "prerequisite", "meaning_raw": "선행 조건", "meaning_answers": ["선행 조건"] },
-  { "number": 3, "word": "catastrophic", "meaning_raw": "재앙적인", "meaning_answers": ["재앙적인"] },
-  { "number": 4, "word": "wipe out", "meaning_raw": "사라지게 하다", "meaning_answers": ["사라지게 하다"] },
-  { "number": 5, "word": "suited", "meaning_raw": "적응한, 잘 맞는", "meaning_answers": ["적응한", "잘 맞는"] },
-  { "number": 6, "word": "strike", "meaning_raw": "발생하다", "meaning_answers": ["발생하다"] },
-  { "number": 7, "word": "preserve", "meaning_raw": "보존하다", "meaning_answers": ["보존하다"] }
+  { "number": 1, "word": "prerequisite", "meaning_raw": "선행 조건", "meaning_answers": ["선행 조건"] },
+  { "number": 2, "word": "catastrophe", "meaning_raw": "재앙", "meaning_answers": ["재앙"] },
+  { "number": 3, "word": "variation", "meaning_raw": "변이, 다양성", "meaning_answers": ["변이", "다양성"] },
+  { "number": 4, "word": "critical", "meaning_raw": "결정적인, 매우 중요한", "meaning_answers": ["결정적인", "매우 중요한"] },
+  { "number": 5, "word": "insight", "meaning_raw": "통찰, 통찰력", "meaning_answers": ["통찰", "통찰력"] },
+  { "number": 6, "word": "natural selection", "meaning_raw": "자연선택", "meaning_answers": ["자연선택"] },
+  { "number": 7, "word": "catastrophic", "meaning_raw": "재앙적인", "meaning_answers": ["재앙적인"] },
+  { "number": 8, "word": "wipe out", "meaning_raw": "완전히 없애다, 멸종시키다", "meaning_answers": ["완전히 없애다", "멸종시키다"] },
+  { "number": 9, "word": "be suited for", "meaning_raw": "~에 적합하다", "meaning_answers": ["~에 적합하다"] },
+  { "number": 10, "word": "observe", "meaning_raw": "관찰하다", "meaning_answers": ["관찰하다"] },
+  { "number": 11, "word": "principle", "meaning_raw": "원리, 원칙", "meaning_answers": ["원리", "원칙"] },
+  { "number": 12, "word": "apply to", "meaning_raw": "~에 적용되다", "meaning_answers": ["~에 적용되다"] },
+  { "number": 13, "word": "strike", "meaning_raw": "(재난 등이) 닥치다", "meaning_answers": ["닥치다"] },
+  { "number": 14, "word": "extinct", "meaning_raw": "멸종한", "meaning_answers": ["멸종한"] },
+  { "number": 15, "word": "preserve", "meaning_raw": "보존하다", "meaning_answers": ["보존하다"] },
+  { "number": 16, "word": "evolvability", "meaning_raw": "진화 가능성", "meaning_answers": ["진화 가능성"] }
 ]

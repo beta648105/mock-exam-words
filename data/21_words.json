@@ -1,8 +1,17 @@
 [
-  { "number": 1, "word": "captive", "meaning_raw": "사로잡힌, 얽매인", "meaning_answers": ["사로잡힌", "얽매인"] },
-  { "number": 2, "word": "socialize", "meaning_raw": "사회적으로 교류하다", "meaning_answers": ["사회적으로 교류하다"] },
-  { "number": 3, "word": "mature", "meaning_raw": "성숙한", "meaning_answers": ["성숙한"] },
-  { "number": 4, "word": "design", "meaning_raw": "본래의 설계, 타고난 구조", "meaning_answers": ["본래의 설계", "타고난 구조"] },
-  { "number": 5, "word": "extraordinary", "meaning_raw": "특별한, 비범한", "meaning_answers": ["특별한", "비범한"] },
-  { "number": 6, "word": "movement", "meaning_raw": "움직임, 신체 활동", "meaning_answers": ["움직임", "신체 활동"] }
+  { "number": 1, "word": "captive", "meaning_raw": "사로잡힌", "meaning_answers": ["사로잡힌"] },
+  { "number": 2, "word": "participate in", "meaning_raw": "~에 참여하다", "meaning_answers": ["~에 참여하다"] },
+  { "number": 3, "word": "occupy", "meaning_raw": "차지하다", "meaning_answers": ["차지하다"] },
+  { "number": 4, "word": "square footage", "meaning_raw": "면적", "meaning_answers": ["면적"] },
+  { "number": 5, "word": "socialize", "meaning_raw": "사회생활을 하다", "meaning_answers": ["사회생활을 하다"] },
+  { "number": 6, "word": "physical cue", "meaning_raw": "신체적 신호", "meaning_answers": ["신체적 신호"] },
+  { "number": 7, "word": "repertoire", "meaning_raw": "레퍼토리", "meaning_answers": ["레퍼토리"] },
+  { "number": 8, "word": "communicate", "meaning_raw": "의사소통하다", "meaning_answers": ["의사소통하다"] },
+  { "number": 9, "word": "emotionally", "meaning_raw": "정서적으로", "meaning_answers": ["정서적으로"] },
+  { "number": 10, "word": "mature", "meaning_raw": "성숙한", "meaning_answers": ["성숙한"] },
+  { "number": 11, "word": "skip", "meaning_raw": "깡충깡충 뛰다", "meaning_answers": ["깡충깡충 뛰다"] },
+  { "number": 12, "word": "anxiety", "meaning_raw": "불안", "meaning_answers": ["불안"] },
+  { "number": 13, "word": "depression", "meaning_raw": "우울", "meaning_answers": ["우울"] },
+  { "number": 14, "word": "disease", "meaning_raw": "병, 질병", "meaning_answers": ["병", "질병"] },
+  { "number": 15, "word": "extraordinary", "meaning_raw": "특별한", "meaning_answers": ["특별한"] }
 ]

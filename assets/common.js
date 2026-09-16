@@ -1,7 +1,9 @@
 /* 공통 유틸 - 데이터 로딩, 저장소, 채점 정규화 */
 
 const DATA_DIR = 'data/';
-const STORE_PREFIX = 'vocab:v1:';
+// 단어 목록이 바뀌면 번호가 다른 단어를 가리키게 되므로,
+// 이 값을 올려서 예전 진도(외움/점수/오답)를 버린다.
+const STORE_PREFIX = 'vocab:v2:';
 
 /* ---------- fetch ---------- */
 
