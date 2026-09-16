@@ -9,7 +9,8 @@ const state = {
   known: new Set(),
   card: { deck: [], idx: 0, dir: 'en2ko', onlyUnknown: false, animating: false },
   quiz: {
-    queue: [], idx: 0, correct: 0, wrong: [], reverse: false, answered: false, timer: null
+    queue: [], idx: 0, correct: 0, wrong: [], reverse: false, answered: false,
+    timer: null, countdown: null
   }
 };
 
@@ -265,7 +266,7 @@ function bindQuiz() {
   $('qSubmit').addEventListener('click', submitOrNext);
   $('qSkip').addEventListener('click', () => { if (!state.quiz.answered) grade(''); });
   $('qQuit').addEventListener('click', () => {
-    clearTimeout(state.quiz.timer);
+    clearQuizTimers();
     showQuizScreen('intro');
   });
 
@@ -300,7 +301,7 @@ function showQuizScreen(which) {
 function startQuiz(list) {
   if (!list.length) return;
   const q = state.quiz;
-  clearTimeout(q.timer);
+  clearQuizTimers();
   q.queue = $('quizShuffle').checked ? shuffle(list) : list.slice();
   q.idx = 0;
   q.correct = 0;
@@ -314,6 +315,7 @@ function startQuiz(list) {
 
 function renderQuestion() {
   const q = state.quiz;
+  clearQuizTimers();                 // 이전 문제에서 돌던 카운트다운 정리
   const w = q.queue[q.idx];
 
   $('qLabel').textContent = q.reverse ? '영어 단어를 입력하세요' : '뜻을 입력하세요';
@@ -336,9 +338,32 @@ function renderQuestion() {
   q.answered = false;
 }
 
+/* 채점 후 걸어둔 자동 넘김/카운트다운을 모두 해제한다. */
+function clearQuizTimers() {
+  clearTimeout(state.quiz.timer);
+  clearInterval(state.quiz.countdown);
+  state.quiz.timer = null;
+  state.quiz.countdown = null;
+}
+
+/* seconds 초 뒤 자동으로 다음 문제로. 남은 시간을 같이 보여준다. */
+function autoNext(seconds) {
+  const q = state.quiz;
+  let left = seconds;
+  const tick = $('qTick');
+  if (tick) tick.textContent = left + '초 후 다음 문제';
+
+  q.countdown = setInterval(() => {
+    left--;
+    if (tick && left > 0) tick.textContent = left + '초 후 다음 문제';
+  }, 1000);
+
+  q.timer = setTimeout(nextQuestion, seconds * 1000);
+}
+
 function submitOrNext() {
   const q = state.quiz;
-  if (q.answered) { clearTimeout(q.timer); nextQuestion(); return; }
+  if (q.answered) { clearQuizTimers(); nextQuestion(); return; }
   // 빈 칸은 채점하지 않음 (오답 후 Enter 가 다음 문제까지 넘어가는 것 방지)
   if (!$('qInput').value.trim()) return;
   grade($('qInput').value);
@@ -367,13 +392,22 @@ function grade(value) {
     q.timer = setTimeout(nextQuestion, 650);
   } else {
     q.wrong.push({ word: w, typed: value.trim() });
+
+    // 틀린 단어는 그 자리에서 '못 외움' 으로 되돌린다
+    if (state.known.delete(w.number)) {
+      setKnown(DAY, state.known);
+      renderList();
+    }
+
     input.classList.add('bad');
     fb.className = 'feedback bad';
     fb.innerHTML = '오답 · 정답은' +
       '<span class="correct-answer">' +
-      escapeHTML(q.reverse ? w.word : w.meaning_raw) + '</span>';
-    $('qSubmit').textContent = '다음 →';
+      escapeHTML(q.reverse ? w.word : w.meaning_raw) + '</span>' +
+      '<span class="tick" id="qTick"></span>';
+    $('qSubmit').textContent = '바로 다음 →';
     $('qSubmit').focus();
+    autoNext(3);
   }
 }
 
@@ -386,6 +420,7 @@ function nextQuestion() {
 
 function finishQuiz() {
   const q = state.quiz;
+  clearQuizTimers();
   const total = q.queue.length;
   const pct = Math.round(q.correct / total * 100);
 
