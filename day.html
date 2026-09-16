@@ -16,7 +16,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="180x180" href="icons/favicon-180.png">
 
-<link rel="stylesheet" href="assets/style.css?v=9">
+<link rel="stylesheet" href="assets/style.css?v=10">
 </head>
 <body>
 <div class="wrap">
@@ -54,12 +54,15 @@
     <!-- ===== 암기 카드 ===== -->
     <section id="panelCard" class="panel" role="tabpanel" hidden>
       <div class="row" style="margin-bottom:10px">
-        <button class="btn" id="dirBtn">영어 → 뜻</button>
-        <button class="btn" id="shuffleBtn">섞기</button>
+        <span class="chip" id="cardKnownChip">외움 0 / 0</span>
         <span class="spacer"></span>
         <label class="toggle">
           <input type="checkbox" id="onlyUnknown"> 못 외운 것만
         </label>
+      </div>
+      <div class="row" style="margin-bottom:10px">
+        <button class="btn" id="dirBtn">영어 → 뜻</button>
+        <button class="btn" id="shuffleBtn">섞기</button>
       </div>
 
       <div class="cardstage">
@@ -146,7 +149,7 @@
   </div>
 </div>
 
-<script src="assets/common.js?v=9"></script>
-<script src="assets/day.js?v=9"></script>
+<script src="assets/common.js?v=10"></script>
+<script src="assets/day.js?v=10"></script>
 </body>
 </html>

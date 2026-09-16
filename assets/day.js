@@ -89,8 +89,11 @@ function toggleKnown(num) {
 function renderKnownMeta() {
   const total = state.words.length;
   const n = state.words.filter(w => state.known.has(w.number)).length;
-  $('knownChip').textContent = '외움 ' + n + ' / ' + total;
+  const label = '외움 ' + n + ' / ' + total;
+  $('knownChip').textContent = label;
   $('knownBar').style.width = (total ? n / total * 100 : 0) + '%';
+  // 암기 탭에서도 같은 현황이 바로 보이게 한다
+  $('cardKnownChip').textContent = label;
 }
 
 function renderList() {
@@ -159,12 +162,24 @@ function bindCard() {
   });
 }
 
-function buildDeck() {
-  const src = state.card.onlyUnknown
+function deckSource() {
+  return state.card.onlyUnknown
     ? state.words.filter(w => !state.known.has(w.number))
     : state.words;
-  state.card.deck = src;
+}
+
+function buildDeck() {
+  state.card.deck = deckSource();
   state.card.idx = 0;
+  renderCard();
+}
+
+/* 한 바퀴를 다 돌았을 때 호출한다. 그 바퀴에서 '외웠어요' 를 누른 단어들을
+   이 시점에 목록에서 빼고, 다음 바퀴를 시작한다. */
+function startNextLap(backwards) {
+  const src = deckSource();
+  state.card.deck = src;
+  state.card.idx = src.length ? (backwards ? src.length - 1 : 0) : 0;
   renderCard();
 }
 
@@ -192,9 +207,12 @@ function moveCard(step) {
   const deck = state.card.deck;
   if (!deck.length || state.card.animating) return;
 
+  const next = state.card.idx + step;
+  const lapEnded = next >= deck.length || next < 0;
+
   const advance = () => {
-    state.card.idx = (state.card.idx + step + deck.length) % deck.length;
-    renderCard();
+    if (lapEnded) startNextLap(step < 0);
+    else { state.card.idx = next; renderCard(); }
   };
 
   const slide = $('cardSlide');
@@ -225,8 +243,9 @@ function markKnownAndNext() {
   state.known.add(w.number);
   setKnown(DAY, state.known);
   renderList();
-  if (state.card.onlyUnknown) buildDeck();
-  else moveCard(1);
+  // 목록을 여기서 다시 만들면 처음으로 돌아가 버린다.
+  // 외운 단어는 이 바퀴 끝날 때(startNextLap) 빠진다.
+  moveCard(1);
 }
 
 function renderCard() {

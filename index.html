@@ -16,7 +16,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="180x180" href="icons/favicon-180.png">
 
-<link rel="stylesheet" href="assets/style.css?v=9">
+<link rel="stylesheet" href="assets/style.css?v=10">
 </head>
 <body>
 <div class="wrap">
@@ -31,14 +31,18 @@
   <p id="msg" class="note" hidden></p>
 </div>
 
-<script src="assets/common.js?v=9"></script>
+<script src="assets/common.js?v=10"></script>
 <script>
-(async function () {
+(function () {
   const box = document.getElementById('days');
   const msg = document.getElementById('msg');
 
+  let days = null;      // 지문 목록 (한 번만 불러온다)
+  let counts = null;    // 지문별 단어 수 (한 번만 불러온다)
+
+  async function render() {
   try {
-    const days = await loadDays();
+    if (!days) days = await loadDays();
     if (!days.length) {
       msg.hidden = false;
       msg.textContent = 'data/days.json 에 지문을 추가해 주세요.';
@@ -46,11 +50,13 @@
     }
 
     // 지문 수만큼 순차로 기다리면 왕복이 그만큼 쌓이므로 한꺼번에 불러온다.
-    const counts = await Promise.all(days.map(d =>
+    if (!counts) counts = await Promise.all(days.map(d =>
       getJSON(DATA_DIR + d.file).then(w => w.length)
                                 .catch(() => 0)   // 파일이 아직 없으면 0개
     ));
 
+    // 외움 개수는 매번 저장소에서 다시 읽어 최신 상태로 그린다.
+    box.innerHTML = '';
     days.forEach((d, i) => {
       const total = counts[i];
       const known = getKnown(d.day).size;
@@ -74,6 +80,15 @@
     msg.hidden = false;
     msg.textContent = e.message;
   }
+  }
+
+  // 처음 열 때, 그리고 지문 화면에서 뒤로 돌아오거나 앱을 다시 열 때마다
+  // 다시 그린다. 뒤로가기는 캐시에서 복원돼 스크립트가 다시 돌지 않으므로
+  // pageshow 가 없으면 외움 현황이 옛날 값으로 남는다.
+  window.addEventListener('pageshow', render);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) render();
+  });
 })();
 </script>
 </body>
