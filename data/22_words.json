@@ -1,0 +1,9 @@
+[
+  { "number": 1, "word": "bring about", "meaning_raw": "가져오다, 초래하다, 야기하다", "meaning_answers": ["가져오다", "초래하다", "야기하다"] },
+  { "number": 2, "word": "common", "meaning_raw": "흔한, 일반적인", "meaning_answers": ["흔한", "일반적인"] },
+  { "number": 3, "word": "flaw", "meaning_raw": "오류, 결함, 단점", "meaning_answers": ["오류", "결함", "단점"] },
+  { "number": 4, "word": "affirm", "meaning_raw": "확언하다, 단언하다", "meaning_answers": ["확언하다", "단언하다"] },
+  { "number": 5, "word": "deserving", "meaning_raw": "자격이 있는, 받을 만한", "meaning_answers": ["자격이 있는", "받을 만한"] },
+  { "number": 6, "word": "contradict", "meaning_raw": "모순되다", "meaning_answers": ["모순되다"] },
+  { "number": 7, "word": "in line with", "meaning_raw": "~과 일치하는, ~에 부합하는", "meaning_answers": ["~과 일치하는", "~에 부합하는"] }
+]

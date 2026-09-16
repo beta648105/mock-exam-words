@@ -1,0 +1,9 @@
+[
+  { "number": 1, "word": "uncertainty", "meaning_raw": "불확실성", "meaning_answers": ["불확실성"] },
+  { "number": 2, "word": "inflexible", "meaning_raw": "경직된, 융통성 없는", "meaning_answers": ["경직된", "융통성 없는"] },
+  { "number": 3, "word": "predictable", "meaning_raw": "예측 가능한", "meaning_answers": ["예측 가능한"] },
+  { "number": 4, "word": "enormous", "meaning_raw": "막대한, 엄청난", "meaning_answers": ["막대한", "엄청난"] },
+  { "number": 5, "word": "come to fruition", "meaning_raw": "결실을 맺다", "meaning_answers": ["결실을 맺다"] },
+  { "number": 6, "word": "worthless", "meaning_raw": "가치 없는, 쓸모없는", "meaning_answers": ["가치 없는", "쓸모없는"] },
+  { "number": 7, "word": "bear in mind", "meaning_raw": "염두에 두다", "meaning_answers": ["염두에 두다"] }
+]

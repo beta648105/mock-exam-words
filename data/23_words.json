@@ -1,0 +1,9 @@
+[
+  { "number": 1, "word": "variation", "meaning_raw": "변이", "meaning_answers": ["변이"] },
+  { "number": 2, "word": "prerequisite", "meaning_raw": "선행 조건", "meaning_answers": ["선행 조건"] },
+  { "number": 3, "word": "catastrophic", "meaning_raw": "재앙적인", "meaning_answers": ["재앙적인"] },
+  { "number": 4, "word": "wipe out", "meaning_raw": "사라지게 하다", "meaning_answers": ["사라지게 하다"] },
+  { "number": 5, "word": "suited", "meaning_raw": "적응한, 잘 맞는", "meaning_answers": ["적응한", "잘 맞는"] },
+  { "number": 6, "word": "strike", "meaning_raw": "발생하다", "meaning_answers": ["발생하다"] },
+  { "number": 7, "word": "preserve", "meaning_raw": "보존하다", "meaning_answers": ["보존하다"] }
+]

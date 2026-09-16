@@ -1,3 +1,6 @@
 [
-  { "day": 21, "title": "Day 21", "file": "21_words.json" }
+  { "day": 21, "title": "Day 21", "file": "21_words.json" },
+  { "day": 22, "title": "Day 22", "file": "22_words.json" },
+  { "day": 23, "title": "Day 23", "file": "23_words.json" },
+  { "day": 24, "title": "Day 24", "file": "24_words.json" }
 ]
