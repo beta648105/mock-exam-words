@@ -292,18 +292,41 @@ a { color: inherit; }
 .hide-meaning .item .m:active { filter: none; }
 
 /* ---------- flashcard ---------- */
-.cardstage { perspective: 1200px; margin: 6px 0 16px; }
+/* perspective 는 .card 자신의 transform 안에서 준다. 그래야 바깥의
+   .cardslide 가 2D 이동만 맡아서 뒤집기(3D)와 서로 간섭하지 않는다. */
+.cardstage {
+  margin: 6px 0 16px;
+  overflow-x: clip;            /* 슬라이드 중 가로 스크롤 방지 */
+}
+
+.cardslide {
+  transition: transform .2s ease-out, opacity .2s ease-out;
+}
+
+/* 빠져나가는 방향 */
+.cardslide.leave-left  { transform: translateX(-30px) scale(.95); opacity: 0; }
+.cardslide.leave-right { transform: translateX(30px) scale(.95); opacity: 0; }
+
+/* 들어올 자리로 순간이동 (애니메이션 없이 위치만 잡는다) */
+.cardslide.enter-left,
+.cardslide.enter-right { transition: none; opacity: 0; }
+.cardslide.enter-left  { transform: translateX(-30px) scale(.95); }
+.cardslide.enter-right { transform: translateX(30px) scale(.95); }
 
 .card {
   position: relative;
   width: 100%;
   min-height: 230px;
   cursor: pointer;
+  transform: perspective(1200px) rotateY(0deg);
   transform-style: preserve-3d;
   transition: transform .45s cubic-bezier(.4, .2, .2, 1);
 }
 
-.card.flipped { transform: rotateY(180deg); }
+.card.flipped { transform: perspective(1200px) rotateY(180deg); }
+
+/* 카드를 넘길 때 앞면으로 되돌리는 순간에는 회전 애니메이션을 끈다 */
+.card.nofx { transition: none; }
 
 .face {
   position: absolute;
@@ -325,11 +348,19 @@ a { color: inherit; }
 
 .face.back { transform: rotateY(180deg); }
 
+/* 긴 한글 뜻이 한 글자씩 세로로 쪼개지던 문제 해결.
+   세로 플렉스에서 shrink-to-fit 되지 않게 가로폭을 꽉 채우고,
+   줄바꿈은 글자 단위가 아니라 낱말 단위(keep-all)로 한다. */
 .face .big {
+  width: 100%;
+  align-self: stretch;
+  writing-mode: horizontal-tb;
   font-size: clamp(26px, 7vw, 40px);
   font-weight: 800;
   letter-spacing: -.02em;
-  word-break: break-word;
+  text-align: center;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .face .hint {
@@ -359,7 +390,8 @@ a { color: inherit; }
   font-weight: 800;
   letter-spacing: -.02em;
   margin: 6px 0 16px;
-  word-break: break-word;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .answer {
@@ -495,4 +527,8 @@ a { color: inherit; }
 @media (max-width: 420px) {
   .wrongrow { flex-direction: column; gap: 2px; }
   .wrongrow b { min-width: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardslide, .card { transition: none; }
 }

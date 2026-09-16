@@ -7,7 +7,7 @@ const DAY = qs('day') || '21';
 const state = {
   words: [],
   known: new Set(),
-  card: { deck: [], idx: 0, dir: 'en2ko', onlyUnknown: false },
+  card: { deck: [], idx: 0, dir: 'en2ko', onlyUnknown: false, animating: false },
   quiz: {
     queue: [], idx: 0, correct: 0, wrong: [], reverse: false, answered: false, timer: null
   }
@@ -171,11 +171,51 @@ function flipCard() {
   $('card').classList.toggle('flipped');
 }
 
+/* 뒤집힌 카드를 앞면으로 되돌린다. 회전이 보이면 슬라이드와 겹쳐 지저분하므로
+   전환을 잠깐 꺼서 즉시 되돌린다. */
+function resetFlip() {
+  const card = $('card');
+  if (!card.classList.contains('flipped')) return;
+  card.classList.add('nofx');
+  card.classList.remove('flipped');
+  void card.offsetWidth;
+  card.classList.remove('nofx');
+}
+
+const REDUCED_MOTION = window.matchMedia
+  && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* step > 0(다음): 현재 카드는 왼쪽으로 빠지고 새 카드가 오른쪽에서 들어온다.
+   step < 0(이전): 반대 방향. */
 function moveCard(step) {
   const deck = state.card.deck;
-  if (!deck.length) return;
-  state.card.idx = (state.card.idx + step + deck.length) % deck.length;
-  renderCard();
+  if (!deck.length || state.card.animating) return;
+
+  const advance = () => {
+    state.card.idx = (state.card.idx + step + deck.length) % deck.length;
+    renderCard();
+  };
+
+  const slide = $('cardSlide');
+  if (!slide || REDUCED_MOTION) { advance(); return; }
+
+  const leaving = step > 0 ? 'leave-left' : 'leave-right';
+  const entering = step > 0 ? 'enter-right' : 'enter-left';
+
+  state.card.animating = true;
+  slide.classList.add(leaving);
+
+  setTimeout(() => {
+    slide.classList.remove(leaving);
+    advance();
+
+    // 반대편에 애니메이션 없이 세워둔 뒤, 클래스를 빼서 제자리로 밀어 넣는다.
+    slide.classList.add(entering);
+    void slide.offsetWidth;            // 강제 리플로우로 위치를 확정
+    slide.classList.remove(entering);
+
+    state.card.animating = false;
+  }, 200);
 }
 
 function markKnownAndNext() {
@@ -190,7 +230,7 @@ function markKnownAndNext() {
 
 function renderCard() {
   const { deck, idx, dir } = state.card;
-  $('card').classList.remove('flipped');
+  resetFlip();
 
   if (!deck.length) {
     $('cardFront').textContent = '🎉';
