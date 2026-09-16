@@ -1,6 +1,6 @@
 # 모고학습앱
 
-모의고사 기출 단어를 워드마스터처럼 Day 단위로 외우는 웹앱. 빌드 도구 없이 정적 파일만 사용하므로 GitHub Pages 에 그대로 올리면 된다.
+모의고사 기출 단어를 워드마스터처럼 지문 번호 단위로 외우는 웹앱. 빌드 도구 없이 정적 파일만 사용하므로 GitHub Pages 에 그대로 올리면 된다.
 
 👉 **https://beta648105.github.io/mock-exam-words/**
 
@@ -19,19 +19,19 @@
   틀리면 정답을 3 초 보여준 뒤 자동으로 넘어가고 그 단어는 "못 외움" 으로 되돌린다.
   끝나면 점수·오답 목록·"오답만 다시" 제공
 
-진행 상황(외운 단어, 최근 점수, 오답)은 브라우저 localStorage 에 Day 별로 저장된다.
+진행 상황(외운 단어, 최근 점수, 오답)은 브라우저 localStorage 에 지문별로 저장된다.
 
 ## 폴더 구조
 
 ```
-index.html            Day 목록
-day.html              Day 학습 화면 (day.html?day=21)
+index.html            지문 목록
+day.html              지문 학습 화면 (day.html?day=21)
 manifest.webmanifest  앱 이름 · 아이콘 · 전체화면 설정
 assets/style.css
 assets/common.js      데이터 로딩 · 저장소 · 채점 규칙
 assets/day.js         단어장 / 암기 / 테스트 로직
-data/days.json        Day 목록 정의
-data/21_words.json    Day 21 단어
+data/days.json        지문 목록 정의
+data/21_words.json    21번 지문 단어
 icons/                앱 아이콘 (PNG)
 ```
 
@@ -45,7 +45,7 @@ pip install pillow
 python tools/make_icons.py
 ```
 
-## Day 추가하는 법
+## 지문 추가하는 법
 
 1. `data/` 에 `22_words.json` 같은 파일을 넣는다. 형식은 21번과 동일:
 
@@ -56,17 +56,19 @@ python tools/make_icons.py
    ]
    ```
 
-   - `number` — Day 안에서의 순번. **Day 마다 1 번부터 다시 시작한다.**
+   - `number` — 지문 안에서의 순번. **지문마다 1 번부터 다시 시작한다.**
    - `meaning_raw` — 화면에 보여줄 전체 뜻
    - `meaning_answers` — 테스트에서 정답으로 인정할 뜻들. 이 중 **하나만** 맞게 입력해도 정답 처리된다.
 
 2. `data/days.json` 에 한 줄 추가:
 
    ```json
-   { "day": 22, "title": "Day 22", "file": "22_words.json" }
+   { "day": 22, "title": "22번", "file": "22_words.json" }
    ```
 
-그러면 첫 화면에 Day 22 카드가 자동으로 생긴다.
+그러면 첫 화면에 22번 카드가 자동으로 생긴다.
+
+`day` 키와 파일 이름은 모고 지문 번호를 그대로 쓴다. `title` 은 화면에 보이는 이름이다.
 
 ## 채점 규칙
 
@@ -86,7 +88,7 @@ python -m http.server 8000
 ```powershell
 git init
 git add .
-git commit -m "모고 단어장 Day 21"
+git commit -m "모고학습앱 첫 커밋"
 git branch -M main
 git remote add origin https://github.com/<계정>/<저장소>.git
 git push -u origin main

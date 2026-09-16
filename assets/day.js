@@ -1,4 +1,4 @@
-/* Day 화면 - 단어장 / 암기카드 / 타이핑 테스트 */
+/* 지문 화면 - 단어장 / 암기카드 / 타이핑 테스트 */
 
 const $ = id => document.getElementById(id);
 
@@ -22,8 +22,8 @@ const state = {
     state.words = words;
     state.known = getKnown(DAY);
 
-    document.title = (info.title || 'Day ' + DAY) + ' · 모고학습앱';
-    $('dayTitle').textContent = info.title || 'Day ' + DAY;
+    document.title = (info.title || DAY + '번') + ' · 모고학습앱';
+    $('dayTitle').textContent = info.title || DAY + '번';
     $('daySub').textContent = words.length + '단어';
     $('app').hidden = false;
 
@@ -71,7 +71,7 @@ function bindList() {
   });
 
   $('resetKnown').addEventListener('click', () => {
-    if (!confirm('이 Day 의 "외움" 표시를 모두 지울까요?')) return;
+    if (!confirm('이 지문의 "외움" 표시를 모두 지울까요?')) return;
     state.known.clear();
     setKnown(DAY, state.known);
     renderList();

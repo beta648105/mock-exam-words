@@ -28,7 +28,7 @@ function loadDays() {
 async function loadDay(day) {
   const days = await loadDays();
   const info = days.find(d => String(d.day) === String(day));
-  if (!info) throw new Error('Day ' + day + ' 는 days.json 에 등록되어 있지 않아요.');
+  if (!info) throw new Error(day + '번 지문은 days.json 에 등록되어 있지 않아요.');
   const words = await getJSON(DATA_DIR + info.file);
   return { info, words };
 }
