@@ -1,0 +1,23 @@
+[
+  { "number": 1, "word": "evolutionary", "meaning_raw": "진화의, 진화론적인", "meaning_answers": ["진화의", "진화론적인"] },
+  { "number": 2, "word": "perspective", "meaning_raw": "관점", "meaning_answers": ["관점"] },
+  { "number": 3, "word": "self-esteem", "meaning_raw": "자아존중감", "meaning_answers": ["자아존중감"] },
+  { "number": 4, "word": "monitoring mechanism", "meaning_raw": "감시 기제", "meaning_answers": ["감시 기제"] },
+  { "number": 5, "word": "inclusion", "meaning_raw": "포함, 소속", "meaning_answers": ["포함", "소속"] },
+  { "number": 6, "word": "status", "meaning_raw": "상태, 지위", "meaning_answers": ["상태", "지위"] },
+  { "number": 7, "word": "nonconsciously", "meaning_raw": "무의식적으로", "meaning_answers": ["무의식적으로"] },
+  { "number": 8, "word": "detect", "meaning_raw": "감지하다, 발견하다", "meaning_answers": ["감지하다", "발견하다"] },
+  { "number": 9, "word": "relational value", "meaning_raw": "관계적 가치", "meaning_answers": ["관계적 가치"] },
+  { "number": 10, "word": "social bond", "meaning_raw": "사회적 유대", "meaning_answers": ["사회적 유대"] },
+  { "number": 11, "word": "evaluate", "meaning_raw": "평가하다", "meaning_answers": ["평가하다"] },
+  { "number": 12, "word": "adjust", "meaning_raw": "조정하다", "meaning_answers": ["조정하다"] },
+  { "number": 13, "word": "mobilize", "meaning_raw": "동원하다", "meaning_answers": ["동원하다"] },
+  { "number": 14, "word": "be tied with", "meaning_raw": "~와 연결되어 있다", "meaning_answers": ["~와 연결되어 있다"] },
+  { "number": 15, "word": "mechanism", "meaning_raw": "기제, 메커니즘", "meaning_answers": ["기제", "메커니즘"] },
+  { "number": 16, "word": "attend to", "meaning_raw": "~에 주의를 기울이다", "meaning_answers": ["~에 주의를 기울이다"] },
+  { "number": 17, "word": "rejection", "meaning_raw": "거절, 배척", "meaning_answers": ["거절", "배척"] },
+  { "number": 18, "word": "acceptance", "meaning_raw": "수용, 받아들임", "meaning_answers": ["수용", "받아들임"] },
+  { "number": 19, "word": "scan", "meaning_raw": "점검하다, 살피다", "meaning_answers": ["점검하다", "살피다"] },
+  { "number": 20, "word": "interpersonal", "meaning_raw": "대인 관계의", "meaning_answers": ["대인 관계의"] },
+  { "number": 21, "word": "assess", "meaning_raw": "평가하다", "meaning_answers": ["평가하다"] }
+]

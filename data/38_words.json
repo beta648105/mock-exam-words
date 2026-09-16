@@ -1,0 +1,18 @@
+[
+  { "number": 1, "word": "harness", "meaning_raw": "이용하다", "meaning_answers": ["이용하다"] },
+  { "number": 2, "word": "tribute", "meaning_raw": "조공", "meaning_answers": ["조공"] },
+  { "number": 3, "word": "consistency", "meaning_raw": "일관성", "meaning_answers": ["일관성"] },
+  { "number": 4, "word": "subjective", "meaning_raw": "주관적인", "meaning_answers": ["주관적인"] },
+  { "number": 5, "word": "measure", "meaning_raw": "측정, 측정 기준", "meaning_answers": ["측정", "측정 기준"] },
+  { "number": 6, "word": "contain", "meaning_raw": "포함하다", "meaning_answers": ["포함하다"] },
+  { "number": 7, "word": "measurement", "meaning_raw": "측정", "meaning_answers": ["측정"] },
+  { "number": 8, "word": "bridge", "meaning_raw": "차이를 메우다, 연결하다", "meaning_answers": ["차이를 메우다", "연결하다"] },
+  { "number": 9, "word": "geography", "meaning_raw": "지리", "meaning_answers": ["지리"] },
+  { "number": 10, "word": "exchange", "meaning_raw": "교환", "meaning_answers": ["교환"] },
+  { "number": 11, "word": "reliable", "meaning_raw": "신뢰할 수 있는", "meaning_answers": ["신뢰할 수 있는"] },
+  { "number": 12, "word": "definition", "meaning_raw": "정의", "meaning_answers": ["정의"] },
+  { "number": 13, "word": "settlement", "meaning_raw": "정착지", "meaning_answers": ["정착지"] },
+  { "number": 14, "word": "inadequacy", "meaning_raw": "불충분함, 결함", "meaning_answers": ["불충분함", "결함"] },
+  { "number": 15, "word": "evident", "meaning_raw": "분명한", "meaning_answers": ["분명한"] },
+  { "number": 16, "word": "disagreement", "meaning_raw": "의견 불일치, 분쟁", "meaning_answers": ["의견 불일치", "분쟁"] }
+]

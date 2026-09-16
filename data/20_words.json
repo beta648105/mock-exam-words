@@ -1,0 +1,17 @@
+[
+  { "number": 1, "word": "parameter", "meaning_raw": "(한정) 요인", "meaning_answers": ["요인"] },
+  { "number": 2, "word": "entertaining", "meaning_raw": "재미있는, 즐거움을 주는", "meaning_answers": ["재미있는", "즐거움을 주는"] },
+  { "number": 3, "word": "commercial", "meaning_raw": "상업적인, 상업용의", "meaning_answers": ["상업적인", "상업용의"] },
+  { "number": 4, "word": "achievement", "meaning_raw": "달성, 성취", "meaning_answers": ["달성", "성취"] },
+  { "number": 5, "word": "outcome", "meaning_raw": "결과, 성과", "meaning_answers": ["결과", "성과"] },
+  { "number": 6, "word": "resist", "meaning_raw": "억제하다, 저항하다", "meaning_answers": ["억제하다", "저항하다"] },
+  { "number": 7, "word": "temptation", "meaning_raw": "유혹", "meaning_answers": ["유혹"] },
+  { "number": 8, "word": "pile on", "meaning_raw": "계속 추가하다, 쌓아 올리다", "meaning_answers": ["계속 추가하다", "쌓아 올리다"] },
+  { "number": 9, "word": "incorporate", "meaning_raw": "포함하다, 통합하다", "meaning_answers": ["포함하다", "통합하다"] },
+  { "number": 10, "word": "dynamics", "meaning_raw": "역학, 작동 방식", "meaning_answers": ["역학", "작동 방식"] },
+  { "number": 11, "word": "engaging", "meaning_raw": "관심과 참여를 끄는", "meaning_answers": ["관심과 참여를 끄는"] },
+  { "number": 12, "word": "engagement", "meaning_raw": "참여, 몰입", "meaning_answers": ["참여", "몰입"] },
+  { "number": 13, "word": "entertainment", "meaning_raw": "오락, 즐거움", "meaning_answers": ["오락", "즐거움"] },
+  { "number": 14, "word": "interactivity", "meaning_raw": "상호작용성", "meaning_answers": ["상호작용성"] },
+  { "number": 15, "word": "instructional", "meaning_raw": "교육적인", "meaning_answers": ["교육적인"] }
+]

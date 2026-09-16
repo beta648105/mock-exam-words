@@ -1,0 +1,21 @@
+[
+  { "number": 1, "word": "type", "meaning_raw": "활자", "meaning_answers": ["활자"] },
+  { "number": 2, "word": "hazard", "meaning_raw": "위험성", "meaning_answers": ["위험성"] },
+  { "number": 3, "word": "paragraph", "meaning_raw": "단락", "meaning_answers": ["단락"] },
+  { "number": 4, "word": "catch the eye", "meaning_raw": "눈길을 사로잡다", "meaning_answers": ["눈길을 사로잡다"] },
+  { "number": 5, "word": "inviting", "meaning_raw": "매력적인, 마음을 끄는", "meaning_answers": ["매력적인", "마음을 끄는"] },
+  { "number": 6, "word": "whereas", "meaning_raw": "반면에", "meaning_answers": ["반면에"] },
+  { "number": 7, "word": "chunk", "meaning_raw": "큰 덩어리", "meaning_answers": ["큰 덩어리"] },
+  { "number": 8, "word": "discourage", "meaning_raw": "의욕을 꺾다, 꺼리게 하다", "meaning_answers": ["의욕을 꺾다", "꺼리게 하다"] },
+  { "number": 9, "word": "frequent", "meaning_raw": "빈번한, 잦은", "meaning_answers": ["빈번한", "잦은"] },
+  { "number": 10, "word": "paragraphing", "meaning_raw": "단락 나누기", "meaning_answers": ["단락 나누기"] },
+  { "number": 11, "word": "development", "meaning_raw": "전개, 발전", "meaning_answers": ["전개", "발전"] },
+  { "number": 12, "word": "be obsessed by", "meaning_raw": "~에 사로잡히다", "meaning_answers": ["~에 사로잡히다"] },
+  { "number": 13, "word": "relief", "meaning_raw": "휴식, 벗어남", "meaning_answers": ["휴식", "벗어남"] },
+  { "number": 14, "word": "outweigh", "meaning_raw": "능가하다", "meaning_answers": ["능가하다"] },
+  { "number": 15, "word": "succession", "meaning_raw": "연속", "meaning_answers": ["연속"] },
+  { "number": 16, "word": "annoying", "meaning_raw": "짜증스러운", "meaning_answers": ["짜증스러운"] },
+  { "number": 17, "word": "verbless", "meaning_raw": "동사가 없는", "meaning_answers": ["동사가 없는"] },
+  { "number": 18, "word": "chop up", "meaning_raw": "잘게 나누다, 잘라 버리다", "meaning_answers": ["잘게 나누다", "잘라 버리다"] },
+  { "number": 19, "word": "train of thought", "meaning_raw": "생각의 흐름, 사고의 맥락", "meaning_answers": ["생각의 흐름", "사고의 맥락"] }
+]

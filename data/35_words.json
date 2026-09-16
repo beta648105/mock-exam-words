@@ -1,0 +1,20 @@
+[
+  { "number": 1, "word": "veterinary dermatologist", "meaning_raw": "수의 피부과 전문의", "meaning_answers": ["수의 피부과 전문의"] },
+  { "number": 2, "word": "criterion", "meaning_raw": "기준", "meaning_answers": ["기준"] },
+  { "number": 3, "word": "care for", "meaning_raw": "~을 돌보다", "meaning_answers": ["~을 돌보다"] },
+  { "number": 4, "word": "impact", "meaning_raw": "영향을 미치다", "meaning_answers": ["영향을 미치다"] },
+  { "number": 5, "word": "encounter", "meaning_raw": "마주치다", "meaning_answers": ["마주치다"] },
+  { "number": 6, "word": "religiously", "meaning_raw": "빠짐없이, 철저하게", "meaning_answers": ["빠짐없이", "철저하게"] },
+  { "number": 7, "word": "multiple", "meaning_raw": "여러 번의, 다수의", "meaning_answers": ["여러 번의", "다수의"] },
+  { "number": 8, "word": "veterinary", "meaning_raw": "수의학의", "meaning_answers": ["수의학의"] },
+  { "number": 9, "word": "warn against", "meaning_raw": "~하지 말라고 경고하다", "meaning_answers": ["~하지 말라고 경고하다"] },
+  { "number": 10, "word": "practice", "meaning_raw": "관행, 행동 방식", "meaning_answers": ["관행", "행동 방식"] },
+  { "number": 11, "word": "be concerned about", "meaning_raw": "~을 걱정하다", "meaning_answers": ["~을 걱정하다"] },
+  { "number": 12, "word": "thoroughly", "meaning_raw": "철저히, 꼼꼼하게", "meaning_answers": ["철저히", "꼼꼼하게"] },
+  { "number": 13, "word": "at most", "meaning_raw": "기껏해야, 최대", "meaning_answers": ["기껏해야", "최대"] },
+  { "number": 14, "word": "condition", "meaning_raw": "질환, 상태", "meaning_answers": ["질환", "상태"] },
+  { "number": 15, "word": "prescribe", "meaning_raw": "처방하다", "meaning_answers": ["처방하다"] },
+  { "number": 16, "word": "medicated", "meaning_raw": "약물이 들어간, 약용의", "meaning_answers": ["약물이 들어간", "약용의"] },
+  { "number": 17, "word": "on a regular basis", "meaning_raw": "정기적으로", "meaning_answers": ["정기적으로"] },
+  { "number": 18, "word": "coat", "meaning_raw": "동물의 털", "meaning_answers": ["동물의 털"] }
+]

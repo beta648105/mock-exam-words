@@ -1,0 +1,19 @@
+[
+  { "number": 1, "word": "aerobic respiration", "meaning_raw": "유산소 호흡", "meaning_answers": ["유산소 호흡"] },
+  { "number": 2, "word": "anaerobic respiration", "meaning_raw": "무산소 호흡", "meaning_answers": ["무산소 호흡"] },
+  { "number": 3, "word": "lactic acid", "meaning_raw": "젖산", "meaning_answers": ["젖산"] },
+  { "number": 4, "word": "generate", "meaning_raw": "생성하다", "meaning_answers": ["생성하다"] },
+  { "number": 5, "word": "glucose", "meaning_raw": "포도당", "meaning_answers": ["포도당"] },
+  { "number": 6, "word": "access", "meaning_raw": "이용하다, 접근하다", "meaning_answers": ["이용하다", "접근하다"] },
+  { "number": 7, "word": "backup system", "meaning_raw": "예비 시스템", "meaning_answers": ["예비 시스템"] },
+  { "number": 8, "word": "turbo boost", "meaning_raw": "순간적인 강한 추진력", "meaning_answers": ["순간적인 강한 추진력"] },
+  { "number": 9, "word": "inefficient", "meaning_raw": "비효율적인", "meaning_answers": ["비효율적인"] },
+  { "number": 10, "word": "toxic", "meaning_raw": "독성이 있는", "meaning_answers": ["독성이 있는"] },
+  { "number": 11, "word": "overload", "meaning_raw": "과부하", "meaning_answers": ["과부하"] },
+  { "number": 12, "word": "intense", "meaning_raw": "강도 높은, 격렬한", "meaning_answers": ["강도 높은", "격렬한"] },
+  { "number": 13, "word": "respiratory system", "meaning_raw": "호흡계", "meaning_answers": ["호흡계"] },
+  { "number": 14, "word": "catch up", "meaning_raw": "따라잡다", "meaning_answers": ["따라잡다"] },
+  { "number": 15, "word": "supply", "meaning_raw": "공급하다", "meaning_answers": ["공급하다"] },
+  { "number": 16, "word": "warm up", "meaning_raw": "몸을 풀다", "meaning_answers": ["몸을 풀다"] },
+  { "number": 17, "word": "switch", "meaning_raw": "전환하다", "meaning_answers": ["전환하다"] }
+]

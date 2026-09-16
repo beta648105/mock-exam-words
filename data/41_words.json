@@ -1,0 +1,21 @@
+[
+  { "number": 1, "word": "prescriptive norm", "meaning_raw": "규범적 기준", "meaning_answers": ["규범적 기준"] },
+  { "number": 2, "word": "conform", "meaning_raw": "순응하다", "meaning_answers": ["순응하다"] },
+  { "number": 3, "word": "legitimize", "meaning_raw": "합법화하다", "meaning_answers": ["합법화하다"] },
+  { "number": 4, "word": "slang", "meaning_raw": "속어, 슬랭", "meaning_answers": ["속어", "슬랭"] },
+  { "number": 5, "word": "fundamentally", "meaning_raw": "근본적으로", "meaning_answers": ["근본적으로"] },
+  { "number": 6, "word": "emergence", "meaning_raw": "등장, 출현", "meaning_answers": ["등장", "출현"] },
+  { "number": 7, "word": "rule maker", "meaning_raw": "규칙 제정자", "meaning_answers": ["규칙 제정자"] },
+  { "number": 8, "word": "be in charge", "meaning_raw": "통제하다, 책임을 맡다", "meaning_answers": ["통제하다", "책임을 맡다"] },
+  { "number": 9, "word": "dominate", "meaning_raw": "지배하다", "meaning_answers": ["지배하다"] },
+  { "number": 10, "word": "expectation", "meaning_raw": "기대, 요구", "meaning_answers": ["기대", "요구"] },
+  { "number": 11, "word": "level", "meaning_raw": "평등한, 공평한", "meaning_answers": ["평등한", "공평한"] },
+  { "number": 12, "word": "democratize", "meaning_raw": "민주화하다, 누구나 접근 가능하게 하다", "meaning_answers": ["민주화하다", "누구나 접근 가능하게 하다"] },
+  { "number": 13, "word": "public figure", "meaning_raw": "공적인 인물, 유명인", "meaning_answers": ["공적인 인물", "유명인"] },
+  { "number": 14, "word": "enforce", "meaning_raw": "시행하다, 강제하다", "meaning_answers": ["시행하다", "강제하다"] },
+  { "number": 15, "word": "traditional media", "meaning_raw": "전통 매체", "meaning_answers": ["전통 매체"] },
+  { "number": 16, "word": "go beyond", "meaning_raw": "~을 넘어서다", "meaning_answers": ["~을 넘어서다"] },
+  { "number": 17, "word": "social barrier", "meaning_raw": "사회적 장벽", "meaning_answers": ["사회적 장벽"] },
+  { "number": 18, "word": "transmit", "meaning_raw": "전파하다", "meaning_answers": ["전파하다"] },
+  { "number": 19, "word": "at a rapid pace", "meaning_raw": "빠른 속도로", "meaning_answers": ["빠른 속도로"] }
+]

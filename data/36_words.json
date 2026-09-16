@@ -1,0 +1,19 @@
+[
+  { "number": 1, "word": "symmetry", "meaning_raw": "대칭", "meaning_answers": ["대칭"] },
+  { "number": 2, "word": "grid", "meaning_raw": "격자", "meaning_answers": ["격자"] },
+  { "number": 3, "word": "central", "meaning_raw": "핵심적인, 중심적인", "meaning_answers": ["핵심적인", "중심적인"] },
+  { "number": 4, "word": "concern", "meaning_raw": "관심사, 주요 대상", "meaning_answers": ["관심사", "주요 대상"] },
+  { "number": 5, "word": "objective", "meaning_raw": "목표", "meaning_answers": ["목표"] },
+  { "number": 6, "word": "complete", "meaning_raw": "완성하다", "meaning_answers": ["완성하다"] },
+  { "number": 7, "word": "digit", "meaning_raw": "숫자", "meaning_answers": ["숫자"] },
+  { "number": 8, "word": "ensure", "meaning_raw": "확실하게 하다", "meaning_answers": ["확실하게 하다"] },
+  { "number": 9, "word": "numerical", "meaning_raw": "수의, 수치상의", "meaning_answers": ["수의", "수치상의"] },
+  { "number": 10, "word": "irrelevant", "meaning_raw": "관련 없는, 중요하지 않은", "meaning_answers": ["관련 없는", "중요하지 않은"] },
+  { "number": 11, "word": "distinct", "meaning_raw": "서로 다른, 구별되는", "meaning_answers": ["서로 다른", "구별되는"] },
+  { "number": 12, "word": "reasoning", "meaning_raw": "추론", "meaning_answers": ["추론"] },
+  { "number": 13, "word": "logic", "meaning_raw": "논리", "meaning_answers": ["논리"] },
+  { "number": 14, "word": "scare off", "meaning_raw": "겁을 주어 쫓아내다", "meaning_answers": ["겁을 주어 쫓아내다"] },
+  { "number": 15, "word": "potential", "meaning_raw": "잠재적인", "meaning_answers": ["잠재적인"] },
+  { "number": 16, "word": "promotion", "meaning_raw": "홍보", "meaning_answers": ["홍보"] },
+  { "number": 17, "word": "slogan", "meaning_raw": "구호, 슬로건", "meaning_answers": ["구호", "슬로건"] }
+]

@@ -1,0 +1,19 @@
+[
+  { "number": 1, "word": "fungus", "meaning_raw": "균류", "meaning_answers": ["균류"] },
+  { "number": 2, "word": "colony", "meaning_raw": "군락, 집단", "meaning_answers": ["군락", "집단"] },
+  { "number": 3, "word": "leaf-cutter ant", "meaning_raw": "잎꾼개미, 절엽개미", "meaning_answers": ["잎꾼개미", "절엽개미"] },
+  { "number": 4, "word": "cultivate", "meaning_raw": "경작하다, 재배하다", "meaning_answers": ["경작하다", "재배하다"] },
+  { "number": 5, "word": "set forth", "meaning_raw": "출발하다, 나서다", "meaning_answers": ["출발하다", "나서다"] },
+  { "number": 6, "word": "vegetation", "meaning_raw": "식물, 초목", "meaning_answers": ["식물", "초목"] },
+  { "number": 7, "word": "chew off", "meaning_raw": "씹어 떼어내다", "meaning_answers": ["씹어 떼어내다"] },
+  { "number": 8, "word": "carry back", "meaning_raw": "다시 운반해 오다", "meaning_answers": ["다시 운반해 오다"] },
+  { "number": 9, "word": "fertilizer", "meaning_raw": "비료", "meaning_answers": ["비료"] },
+  { "number": 10, "word": "underground", "meaning_raw": "지하의", "meaning_answers": ["지하의"] },
+  { "number": 11, "word": "blossom", "meaning_raw": "피어나다, 발달하다", "meaning_answers": ["피어나다", "발달하다"] },
+  { "number": 12, "word": "fruiting body", "meaning_raw": "자실체", "meaning_answers": ["자실체"] },
+  { "number": 13, "word": "farming strategy", "meaning_raw": "농업 전략", "meaning_answers": ["농업 전략"] },
+  { "number": 14, "word": "span", "meaning_raw": "~에 걸치다, 이르다", "meaning_answers": ["~에 걸치다", "이르다"] },
+  { "number": 15, "word": "square meter", "meaning_raw": "제곱미터", "meaning_answers": ["제곱미터"] },
+  { "number": 16, "word": "agricultural", "meaning_raw": "농업의", "meaning_answers": ["농업의"] },
+  { "number": 17, "word": "civilization", "meaning_raw": "문명", "meaning_answers": ["문명"] }
+]

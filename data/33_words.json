@@ -1,0 +1,18 @@
+[
+  { "number": 1, "word": "surmise", "meaning_raw": "짐작하다", "meaning_answers": ["짐작하다"] },
+  { "number": 2, "word": "ancient", "meaning_raw": "고대의", "meaning_answers": ["고대의"] },
+  { "number": 3, "word": "approach", "meaning_raw": "접근 방식", "meaning_answers": ["접근 방식"] },
+  { "number": 4, "word": "realism", "meaning_raw": "사실주의", "meaning_answers": ["사실주의"] },
+  { "number": 5, "word": "sculpture", "meaning_raw": "조각", "meaning_answers": ["조각"] },
+  { "number": 6, "word": "pottery", "meaning_raw": "도자기", "meaning_answers": ["도자기"] },
+  { "number": 7, "word": "obvious", "meaning_raw": "분명한", "meaning_answers": ["분명한"] },
+  { "number": 8, "word": "intentionally", "meaning_raw": "의도적으로", "meaning_answers": ["의도적으로"] },
+  { "number": 9, "word": "avoid", "meaning_raw": "피하다", "meaning_answers": ["피하다"] },
+  { "number": 10, "word": "passage", "meaning_raw": "(작품의) 부분", "meaning_answers": ["부분"] },
+  { "number": 11, "word": "resemble", "meaning_raw": "~을 닮다", "meaning_answers": ["~을 닮다"] },
+  { "number": 12, "word": "recognizable", "meaning_raw": "알아볼 수 있는", "meaning_answers": ["알아볼 수 있는"] },
+  { "number": 13, "word": "demonstrate", "meaning_raw": "보여주다, 입증하다", "meaning_answers": ["보여주다", "입증하다"] },
+  { "number": 14, "word": "mimesis", "meaning_raw": "모방, 모사", "meaning_answers": ["모방", "모사"] },
+  { "number": 15, "word": "sufficiently", "meaning_raw": "충분히", "meaning_answers": ["충분히"] },
+  { "number": 16, "word": "define", "meaning_raw": "정의하다", "meaning_answers": ["정의하다"] }
+]

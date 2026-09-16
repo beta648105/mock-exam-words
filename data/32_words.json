@@ -1,0 +1,20 @@
+[
+  { "number": 1, "word": "devastate", "meaning_raw": "망연자실하게 하다", "meaning_answers": ["망연자실하게 하다"] },
+  { "number": 2, "word": "suppress", "meaning_raw": "억누르다", "meaning_answers": ["억누르다"] },
+  { "number": 3, "word": "fascinating", "meaning_raw": "매혹적인, 흥미로운", "meaning_answers": ["매혹적인", "흥미로운"] },
+  { "number": 4, "word": "empowering", "meaning_raw": "자신감과 힘을 주는", "meaning_answers": ["자신감과 힘을 주는"] },
+  { "number": 5, "word": "Stoic philosophy", "meaning_raw": "스토아 철학", "meaning_answers": ["스토아 철학"] },
+  { "number": 6, "word": "random", "meaning_raw": "무작위적인, 임의적인", "meaning_answers": ["무작위적인", "임의적인"] },
+  { "number": 7, "word": "arise from", "meaning_raw": "~에서 생겨나다, 비롯되다", "meaning_answers": ["~에서 생겨나다", "비롯되다"] },
+  { "number": 8, "word": "overwhelmed", "meaning_raw": "압도된", "meaning_answers": ["압도된"] },
+  { "number": 9, "word": "automatic", "meaning_raw": "자동적인", "meaning_answers": ["자동적인"] },
+  { "number": 10, "word": "reaction", "meaning_raw": "반응", "meaning_answers": ["반응"] },
+  { "number": 11, "word": "interpret", "meaning_raw": "해석하다", "meaning_answers": ["해석하다"] },
+  { "number": 12, "word": "trigger", "meaning_raw": "촉발하다, 유발하다", "meaning_answers": ["촉발하다", "유발하다"] },
+  { "number": 13, "word": "criticize", "meaning_raw": "비판하다", "meaning_answers": ["비판하다"] },
+  { "number": 14, "word": "perceive", "meaning_raw": "인식하다", "meaning_answers": ["인식하다"] },
+  { "number": 15, "word": "threatening", "meaning_raw": "위협적인", "meaning_answers": ["위협적인"] },
+  { "number": 16, "word": "define", "meaning_raw": "규정하다", "meaning_answers": ["규정하다"] },
+  { "number": 17, "word": "worth", "meaning_raw": "가치", "meaning_answers": ["가치"] },
+  { "number": 18, "word": "examine", "meaning_raw": "살펴보다, 점검하다", "meaning_answers": ["살펴보다", "점검하다"] }
+]

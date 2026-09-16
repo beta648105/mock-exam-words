@@ -1,6 +1,20 @@
 [
+  { "day": 20, "title": "20", "file": "20_words.json" },
   { "day": 21, "title": "21", "file": "21_words.json" },
   { "day": 22, "title": "22", "file": "22_words.json" },
   { "day": 23, "title": "23", "file": "23_words.json" },
-  { "day": 24, "title": "24", "file": "24_words.json" }
+  { "day": 24, "title": "24", "file": "24_words.json" },
+  { "day": 29, "title": "29", "file": "29_words.json" },
+  { "day": 30, "title": "30", "file": "30_words.json" },
+  { "day": 31, "title": "31", "file": "31_words.json" },
+  { "day": 32, "title": "32", "file": "32_words.json" },
+  { "day": 33, "title": "33", "file": "33_words.json" },
+  { "day": 34, "title": "34", "file": "34_words.json" },
+  { "day": 35, "title": "35", "file": "35_words.json" },
+  { "day": 36, "title": "36", "file": "36_words.json" },
+  { "day": 37, "title": "37", "file": "37_words.json" },
+  { "day": 38, "title": "38", "file": "38_words.json" },
+  { "day": 39, "title": "39", "file": "39_words.json" },
+  { "day": 40, "title": "40", "file": "40_words.json" },
+  { "day": 41, "title": "41", "file": "41_words.json" }
 ]

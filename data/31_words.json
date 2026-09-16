@@ -1,0 +1,15 @@
+[
+  { "number": 1, "word": "flatter", "meaning_raw": "돋보이게 하다", "meaning_answers": ["돋보이게 하다"] },
+  { "number": 2, "word": "viral", "meaning_raw": "바이러스처럼 퍼지는", "meaning_answers": ["바이러스처럼 퍼지는"] },
+  { "number": 3, "word": "presumably", "meaning_raw": "아마, 추정하건대", "meaning_answers": ["아마", "추정하건대"] },
+  { "number": 4, "word": "mess up", "meaning_raw": "망치다", "meaning_answers": ["망치다"] },
+  { "number": 5, "word": "relationship with ~", "meaning_raw": "~와의 관계", "meaning_answers": ["~와의 관계"] },
+  { "number": 6, "word": "recipe", "meaning_raw": "조리법", "meaning_answers": ["조리법"] },
+  { "number": 7, "word": "spread", "meaning_raw": "퍼지다, 확산되다", "meaning_answers": ["퍼지다", "확산되다"] },
+  { "number": 8, "word": "irrespective of", "meaning_raw": "~와 관계없이", "meaning_answers": ["~와 관계없이"] },
+  { "number": 9, "word": "involved", "meaning_raw": "관련된", "meaning_answers": ["관련된"] },
+  { "number": 10, "word": "judgmentally", "meaning_raw": "비판적으로, 판단하듯", "meaning_answers": ["비판적으로", "판단하듯"] },
+  { "number": 11, "word": "turn A off B", "meaning_raw": "A가 B를 싫어하게 만들다", "meaning_answers": ["A가 B를 싫어하게 만들다"] },
+  { "number": 12, "word": "identical", "meaning_raw": "동일한", "meaning_answers": ["동일한"] },
+  { "number": 13, "word": "by the skin of one's teeth", "meaning_raw": "간신히, 가까스로", "meaning_answers": ["간신히", "가까스로"] }
+]

@@ -1,0 +1,18 @@
+[
+  { "number": 1, "word": "untether", "meaning_raw": "매인 줄을 풀다", "meaning_answers": ["매인 줄을 풀다"] },
+  { "number": 2, "word": "alchemy", "meaning_raw": "연금술", "meaning_answers": ["연금술"] },
+  { "number": 3, "word": "seemingly", "meaning_raw": "겉보기에는, 외견상", "meaning_answers": ["겉보기에는", "외견상"] },
+  { "number": 4, "word": "administer", "meaning_raw": "처리하다, 관리하다", "meaning_answers": ["처리하다", "관리하다"] },
+  { "number": 5, "word": "computation", "meaning_raw": "계산", "meaning_answers": ["계산"] },
+  { "number": 6, "word": "conscious", "meaning_raw": "의식적인", "meaning_answers": ["의식적인"] },
+  { "number": 7, "word": "complicated", "meaning_raw": "복잡한", "meaning_answers": ["복잡한"] },
+  { "number": 8, "word": "bury", "meaning_raw": "묻다", "meaning_answers": ["묻다"] },
+  { "number": 9, "word": "muscle fibre", "meaning_raw": "근섬유", "meaning_answers": ["근섬유"] },
+  { "number": 10, "word": "fully", "meaning_raw": "완전히", "meaning_answers": ["완전히"] },
+  { "number": 11, "word": "complexity", "meaning_raw": "복잡성", "meaning_answers": ["복잡성"] },
+  { "number": 12, "word": "feel one's way", "meaning_raw": "더듬어 나아가다", "meaning_answers": ["더듬어 나아가다"] },
+  { "number": 13, "word": "sense", "meaning_raw": "감각", "meaning_answers": ["감각"] },
+  { "number": 14, "word": "fire", "meaning_raw": "활성화하다, 작동시키다", "meaning_answers": ["활성화하다", "작동시키다"] },
+  { "number": 15, "word": "be capable of", "meaning_raw": "~할 수 있다", "meaning_answers": ["~할 수 있다"] },
+  { "number": 16, "word": "accept", "meaning_raw": "받아들이다", "meaning_answers": ["받아들이다"] }
+]

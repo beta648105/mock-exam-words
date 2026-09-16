@@ -1,0 +1,18 @@
+[
+  { "number": 1, "word": "crater", "meaning_raw": "분화구", "meaning_answers": ["분화구"] },
+  { "number": 2, "word": "put forth", "meaning_raw": "제시하다, 제안하다", "meaning_answers": ["제시하다", "제안하다"] },
+  { "number": 3, "word": "revolutionary", "meaning_raw": "혁명적인, 획기적인", "meaning_answers": ["혁명적인", "획기적인"] },
+  { "number": 4, "word": "by eye", "meaning_raw": "맨눈으로", "meaning_answers": ["맨눈으로"] },
+  { "number": 5, "word": "conclude", "meaning_raw": "결론을 내리다", "meaning_answers": ["결론을 내리다"] },
+  { "number": 6, "word": "accepted", "meaning_raw": "일반적으로 받아들여지는", "meaning_answers": ["일반적으로 받아들여지는"] },
+  { "number": 7, "word": "widespread", "meaning_raw": "널리 퍼진", "meaning_answers": ["널리 퍼진"] },
+  { "number": 8, "word": "objection", "meaning_raw": "반대, 이의", "meaning_answers": ["반대", "이의"] },
+  { "number": 9, "word": "publish", "meaning_raw": "출판하다", "meaning_answers": ["출판하다"] },
+  { "number": 10, "word": "theory", "meaning_raw": "이론", "meaning_answers": ["이론"] },
+  { "number": 11, "word": "astronomer", "meaning_raw": "천문학자", "meaning_answers": ["천문학자"] },
+  { "number": 12, "word": "build on", "meaning_raw": "~을 바탕으로 발전시키다", "meaning_answers": ["~을 바탕으로 발전시키다"] },
+  { "number": 13, "word": "improvement", "meaning_raw": "개선, 발전", "meaning_answers": ["개선", "발전"] },
+  { "number": 14, "word": "lead to", "meaning_raw": "~로 이어지다", "meaning_answers": ["~로 이어지다"] },
+  { "number": 15, "word": "confirm", "meaning_raw": "확인하다, 입증하다", "meaning_answers": ["확인하다", "입증하다"] },
+  { "number": 16, "word": "advance", "meaning_raw": "발전시키다", "meaning_answers": ["발전시키다"] }
+]
