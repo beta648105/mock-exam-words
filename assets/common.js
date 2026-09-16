@@ -125,3 +125,21 @@ function escapeHTML(s) {
 function qs(name) {
   return new URLSearchParams(location.search).get(name);
 }
+
+/* ---------- 홈 화면 앱(standalone) 대응 ---------- */
+
+/* iOS 홈 화면 앱에서는 <a> 클릭이 사파리 창으로 튀어나가는 버전이 있다.
+   같은 사이트 안의 이동은 JS 로 직접 처리해서 앱 안에 머물게 한다. */
+if (window.navigator.standalone === true) {
+  document.addEventListener('click', function (e) {
+    const a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    if (a.target === '_blank' || a.hasAttribute('download')) return;
+
+    const url = new URL(a.getAttribute('href'), location.href);
+    if (url.origin !== location.origin) return;
+
+    e.preventDefault();
+    location.href = url.href;
+  });
+}

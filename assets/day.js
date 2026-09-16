@@ -21,7 +21,7 @@ const state = {
     state.words = words;
     state.known = getKnown(DAY);
 
-    document.title = (info.title || 'Day ' + DAY) + ' · 모고 단어장';
+    document.title = (info.title || 'Day ' + DAY) + ' · 모고학습앱';
     $('dayTitle').textContent = info.title || 'Day ' + DAY;
     $('daySub').textContent = words.length + '단어';
     $('app').hidden = false;

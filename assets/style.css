@@ -48,12 +48,25 @@ body {
     "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   line-height: 1.55;
   -webkit-text-size-adjust: 100%;
+  /* 홈 화면 앱처럼 보이도록: 탭 하이라이트 제거, 위아래 튕김 억제 */
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: contain;
+  min-height: 100svh;
+}
+
+/* 글자를 읽는 곳 말고는 길게 눌러도 선택되지 않게 (앱 느낌) */
+button, .card, .tabs, .topbar, .daycard, .star {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .wrap {
   max-width: 720px;
   margin: 0 auto;
-  padding: 20px 16px 64px;
+  /* 노치 / 홈 인디케이터 안전영역 확보 */
+  padding: calc(20px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right))
+           calc(64px + env(safe-area-inset-bottom)) calc(16px + env(safe-area-inset-left));
 }
 
 a { color: inherit; }
