@@ -16,7 +16,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="180x180" href="icons/favicon-180.png">
 
-<link rel="stylesheet" href="assets/style.css?v=7">
+<link rel="stylesheet" href="assets/style.css?v=8">
 </head>
 <body>
 <div class="wrap">
@@ -31,7 +31,7 @@
   <p id="msg" class="note" hidden></p>
 </div>
 
-<script src="assets/common.js?v=7"></script>
+<script src="assets/common.js?v=8"></script>
 <script>
 (async function () {
   const box = document.getElementById('days');
@@ -59,7 +59,7 @@
       a.className = 'daycard';
       a.href = 'day.html?day=' + encodeURIComponent(d.day);
       a.innerHTML =
-        '<div class="num">' + escapeHTML(d.title || (d.day + '번')) + '</div>' +
+        '<div class="num">' + escapeHTML(d.title || d.day) + '</div>' +
         '<div class="meta">' + total + '단어 · 외움 ' + known + '</div>' +
         '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
         (score
