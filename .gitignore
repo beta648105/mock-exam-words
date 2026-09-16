@@ -1,0 +1,10 @@
+# Windows / OneDrive
+Thumbs.db
+desktop.ini
+*.lnk
+~$*
+
+# 에디터
+.vscode/
+.idea/
+*.swp

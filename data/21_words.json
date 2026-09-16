@@ -1,0 +1,8 @@
+[
+  { "number": 21, "word": "captive", "meaning_raw": "사로잡힌, 얽매인", "meaning_answers": ["사로잡힌", "얽매인"] },
+  { "number": 22, "word": "socialize", "meaning_raw": "사회적으로 교류하다", "meaning_answers": ["사회적으로 교류하다"] },
+  { "number": 23, "word": "mature", "meaning_raw": "성숙한", "meaning_answers": ["성숙한"] },
+  { "number": 24, "word": "design", "meaning_raw": "본래의 설계, 타고난 구조", "meaning_answers": ["본래의 설계", "타고난 구조"] },
+  { "number": 25, "word": "extraordinary", "meaning_raw": "특별한, 비범한", "meaning_answers": ["특별한", "비범한"] },
+  { "number": 26, "word": "movement", "meaning_raw": "움직임, 신체 활동", "meaning_answers": ["움직임", "신체 활동"] }
+]
