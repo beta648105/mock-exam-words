@@ -1,9 +1,21 @@
 [
-  { "number": 1, "word": "bring about", "meaning_raw": "가져오다, 초래하다, 야기하다", "meaning_answers": ["가져오다", "초래하다", "야기하다"] },
-  { "number": 2, "word": "common", "meaning_raw": "흔한, 일반적인", "meaning_answers": ["흔한", "일반적인"] },
-  { "number": 3, "word": "flaw", "meaning_raw": "오류, 결함, 단점", "meaning_answers": ["오류", "결함", "단점"] },
-  { "number": 4, "word": "affirm", "meaning_raw": "확언하다, 단언하다", "meaning_answers": ["확언하다", "단언하다"] },
-  { "number": 5, "word": "deserving", "meaning_raw": "자격이 있는, 받을 만한", "meaning_answers": ["자격이 있는", "받을 만한"] },
-  { "number": 6, "word": "contradict", "meaning_raw": "모순되다", "meaning_answers": ["모순되다"] },
-  { "number": 7, "word": "in line with", "meaning_raw": "~과 일치하는, ~에 부합하는", "meaning_answers": ["~과 일치하는", "~에 부합하는"] }
+  { "number": 1, "word": "manifest", "meaning_raw": "명백히 하다", "meaning_answers": ["명백히 하다"] },
+  { "number": 2, "word": "affirm", "meaning_raw": "확인하다", "meaning_answers": ["확인하다"] },
+  { "number": 3, "word": "attraction", "meaning_raw": "끌어당김, 매력", "meaning_answers": ["끌어당김", "매력"] },
+  { "number": 4, "word": "bring about", "meaning_raw": "~을 초래하다, 가져오다", "meaning_answers": ["~을 초래하다", "가져오다"] },
+  { "number": 5, "word": "flaw", "meaning_raw": "결함, 오류", "meaning_answers": ["결함", "오류"] },
+  { "number": 6, "word": "visualize", "meaning_raw": "시각화하다, 마음속으로 그리다", "meaning_answers": ["시각화하다", "마음속으로 그리다"] },
+  { "number": 7, "word": "vibration", "meaning_raw": "진동", "meaning_answers": ["진동"] },
+  { "number": 8, "word": "magnetic", "meaning_raw": "자석 같은, 강하게 끌어당기는", "meaning_answers": ["자석 같은", "강하게 끌어당기는"] },
+  { "number": 9, "word": "attractor", "meaning_raw": "끌어당기는 것", "meaning_answers": ["끌어당기는 것"] },
+  { "number": 10, "word": "belief system", "meaning_raw": "신념 체계", "meaning_answers": ["신념 체계"] },
+  { "number": 11, "word": "passionate", "meaning_raw": "열정적인", "meaning_answers": ["열정적인"] },
+  { "number": 12, "word": "worthy", "meaning_raw": "가치 있는, ~할 만한", "meaning_answers": ["가치 있는", "~할 만한"] },
+  { "number": 13, "word": "lovable", "meaning_raw": "사랑받을 만한", "meaning_answers": ["사랑받을 만한"] },
+  { "number": 14, "word": "deserving", "meaning_raw": "~을 받을 자격이 있는", "meaning_answers": ["~을 받을 자격이 있는"] },
+  { "number": 15, "word": "challenging", "meaning_raw": "어려운, 힘든", "meaning_answers": ["어려운", "힘든"] },
+  { "number": 16, "word": "limiting belief", "meaning_raw": "제한적인 신념", "meaning_answers": ["제한적인 신념"] },
+  { "number": 17, "word": "contradict", "meaning_raw": "모순되다, 상충하다", "meaning_answers": ["모순되다", "상충하다"] },
+  { "number": 18, "word": "desire", "meaning_raw": "욕구, 바람", "meaning_answers": ["욕구", "바람"] },
+  { "number": 19, "word": "in line with", "meaning_raw": "~와 일치하는", "meaning_answers": ["~와 일치하는"] }
 ]
