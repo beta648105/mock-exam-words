@@ -49,11 +49,12 @@ python tools/make_icons.py
 
    ```json
    [
-     { "number": 27, "word": "captive", "meaning_raw": "사로잡힌, 얽매인",
+     { "number": 1, "word": "captive", "meaning_raw": "사로잡힌, 얽매인",
        "meaning_answers": ["사로잡힌", "얽매인"] }
    ]
    ```
 
+   - `number` — Day 안에서의 순번. **Day 마다 1 번부터 다시 시작한다.**
    - `meaning_raw` — 화면에 보여줄 전체 뜻
    - `meaning_answers` — 테스트에서 정답으로 인정할 뜻들. 이 중 **하나만** 맞게 입력해도 정답 처리된다.
 
