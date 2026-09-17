@@ -1,0 +1,12 @@
+[
+  { "number": 1, "word": "overlook", "meaning_raw": "간과하다", "meaning_answers": ["간과하다"] },
+  { "number": 2, "word": "stakeholder", "meaning_raw": "이해관계자", "meaning_answers": ["이해관계자"] },
+  { "number": 3, "word": "paradox", "meaning_raw": "역설", "meaning_answers": ["역설"] },
+  { "number": 4, "word": "engagement", "meaning_raw": "참가", "meaning_answers": ["참가"] },
+  { "number": 5, "word": "explode", "meaning_raw": "(폭탄/감정)폭발하다", "meaning_answers": ["폭발하다"] },
+  { "number": 6, "word": "awareness", "meaning_raw": "인식", "meaning_answers": ["인식"] },
+  { "number": 7, "word": "vulnerable", "meaning_raw": "취약한", "meaning_answers": ["취약한"] },
+  { "number": 8, "word": "conflict", "meaning_raw": "다투다", "meaning_answers": ["다투다"] },
+  { "number": 9, "word": "current", "meaning_raw": "현재의", "meaning_answers": ["현재의"] },
+  { "number": 10, "word": "arm", "meaning_raw": "무장하다", "meaning_answers": ["무장하다"] }
+]

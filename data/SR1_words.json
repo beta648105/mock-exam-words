@@ -1,0 +1,14 @@
+[
+  { "number": 1, "word": "advance", "meaning_raw": "증진하다", "meaning_answers": ["증진하다"] },
+  { "number": 2, "word": "fake", "meaning_raw": "가짜의", "meaning_answers": ["가짜의"] },
+  { "number": 3, "word": "behavioral scientist", "meaning_raw": "행동 과학자", "meaning_answers": ["행동 과학자"] },
+  { "number": 4, "word": "more likely to-v", "meaning_raw": "~할 것 같다", "meaning_answers": ["~할 것 같다"] },
+  { "number": 5, "word": "manipulate", "meaning_raw": "조종하다", "meaning_answers": ["조종하다"] },
+  { "number": 6, "word": "spot", "meaning_raw": "발견하다", "meaning_answers": ["발견하다"] },
+  { "number": 7, "word": "assessment", "meaning_raw": "평가", "meaning_answers": ["평가"] },
+  { "number": 8, "word": "perceive", "meaning_raw": "인식하다", "meaning_answers": ["인식하다"] },
+  { "number": 9, "word": "realistic", "meaning_raw": "사실적인", "meaning_answers": ["사실적인"] },
+  { "number": 10, "word": "artificial", "meaning_raw": "인공적인", "meaning_answers": ["인공적인"] },
+  { "number": 11, "word": "authentic", "meaning_raw": "진짜의", "meaning_answers": ["진짜의"] },
+  { "number": 12, "word": "generate", "meaning_raw": "만들어내다", "meaning_answers": ["만들어내다"] }
+]

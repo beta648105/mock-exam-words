@@ -1,0 +1,22 @@
+[
+  { "number": 1, "word": "essential", "meaning_raw": "필수적인", "meaning_answers": ["필수적인"] },
+  { "number": 2, "word": "progress", "meaning_raw": "진보", "meaning_answers": ["진보"] },
+  { "number": 3, "word": "serve", "meaning_raw": "~의 역할을 하다", "meaning_answers": ["~의 역할을 하다"] },
+  { "number": 4, "word": "foundation", "meaning_raw": "기반", "meaning_answers": ["기반"] },
+  { "number": 5, "word": "reliable", "meaning_raw": "믿을만한", "meaning_answers": ["믿을만한"] },
+  { "number": 6, "word": "accurate", "meaning_raw": "정확한", "meaning_answers": ["정확한"] },
+  { "number": 7, "word": "accumulation", "meaning_raw": "축적", "meaning_answers": ["축적"] },
+  { "number": 8, "word": "primary", "meaning_raw": "주요한", "meaning_answers": ["주요한"] },
+  { "number": 9, "word": "unregulated", "meaning_raw": "규제받지 않는", "meaning_answers": ["규제받지 않는"] },
+  { "number": 10, "word": "misinformation", "meaning_raw": "잘못된 정보", "meaning_answers": ["잘못된 정보"] },
+  { "number": 11, "word": "election", "meaning_raw": "선거", "meaning_answers": ["선거"] },
+  { "number": 12, "word": "violence", "meaning_raw": "폭력", "meaning_answers": ["폭력"] },
+  { "number": 13, "word": "incident", "meaning_raw": "사건", "meaning_answers": ["사건"] },
+  { "number": 14, "word": "responsibility", "meaning_raw": "책임", "meaning_answers": ["책임"] },
+  { "number": 15, "word": "enhancement", "meaning_raw": "향상", "meaning_answers": ["향상"] },
+  { "number": 16, "word": "protocol", "meaning_raw": "절차", "meaning_answers": ["절차"] },
+  { "number": 17, "word": "accuracy", "meaning_raw": "정확성", "meaning_answers": ["정확성"] },
+  { "number": 18, "word": "critical", "meaning_raw": "중요한", "meaning_answers": ["중요한"] },
+  { "number": 19, "word": "informed", "meaning_raw": "정보가 밝은", "meaning_answers": ["정보가 밝은"] },
+  { "number": 20, "word": "rational", "meaning_raw": "합리적인, 이성적인", "meaning_answers": ["합리적인", "이성적인"] }
+]

@@ -1,0 +1,23 @@
+[
+  { "number": 1, "word": "determine", "meaning_raw": "결정하다, 알아내다", "meaning_answers": ["결정하다", "알아내다"] },
+  { "number": 2, "word": "come across", "meaning_raw": "마주치다", "meaning_answers": ["마주치다"] },
+  { "number": 3, "word": "recruit", "meaning_raw": "모집하다", "meaning_answers": ["모집하다"] },
+  { "number": 4, "word": "assimilative", "meaning_raw": "동화의", "meaning_answers": ["동화의"] },
+  { "number": 5, "word": "accommodative", "meaning_raw": "순응적인", "meaning_answers": ["순응적인"] },
+  { "number": 6, "word": "prosessing", "meaning_raw": "처리", "meaning_answers": ["처리"] },
+  { "number": 7, "word": "skepticism", "meaning_raw": "회의주의", "meaning_answers": ["회의주의"] },
+  { "number": 8, "word": "gullibiliy", "meaning_raw": "잘 속는 성향", "meaning_answers": ["잘 속는 성향"] },
+  { "number": 9, "word": "probable", "meaning_raw": "가능한", "meaning_answers": ["가능한"] },
+  { "number": 10, "word": "novel", "meaning_raw": "소설", "meaning_answers": ["소설"] },
+  { "number": 11, "word": "whereas", "meaning_raw": "반면에", "meaning_answers": ["반면에"] },
+  { "number": 12, "word": "is consistent with", "meaning_raw": "~와 일관되다", "meaning_answers": ["~와 일관되다"] },
+  { "number": 13, "word": "externally", "meaning_raw": "외부에", "meaning_answers": ["외부에"] },
+  { "number": 14, "word": "attentive", "meaning_raw": "주의 깊은", "meaning_answers": ["주의 깊은"] },
+  { "number": 15, "word": "detail-oriented", "meaning_raw": "세부 사항에 집중하는", "meaning_answers": ["세부 사항에 집중하는"] },
+  { "number": 16, "word": "initial exposure", "meaning_raw": "최초 노출", "meaning_answers": ["최초 노출"] },
+  { "number": 17, "word": "statement", "meaning_raw": "진술", "meaning_answers": ["진술"] },
+  { "number": 18, "word": "trivia game", "meaning_raw": "퀴즈 게임", "meaning_answers": ["퀴즈 게임"] },
+  { "number": 19, "word": "previously", "meaning_raw": "이전에", "meaning_answers": ["이전에"] },
+  { "number": 20, "word": "In contrast", "meaning_raw": "대조", "meaning_answers": ["대조"] },
+  { "number": 21, "word": "rate", "meaning_raw": "평가하다", "meaning_answers": ["평가하다"] }
+]
