@@ -1,0 +1,16 @@
+[
+  { "number": 1, "word": "sustainability", "meaning_raw": "지속 가능성", "meaning_answers": ["지속 가능성"] },
+  { "number": 2, "word": "offset", "meaning_raw": "상쇄하다", "meaning_answers": ["상쇄하다"] },
+  { "number": 3, "word": "contribution", "meaning_raw": "기여, 이바지", "meaning_answers": ["기여", "이바지"] },
+  { "number": 4, "word": "proponent", "meaning_raw": "지지자, 찬성자", "meaning_answers": ["지지자", "찬성자"] },
+  { "number": 5, "word": "interchangeable", "meaning_raw": "교환할 수 있는, 대체 가능한", "meaning_answers": ["교환할 수 있는", "대체 가능한"] },
+  { "number": 6, "word": "with respect to", "meaning_raw": "~에 관하여, ~에 대하여", "meaning_answers": ["~에 관하여", "~에 대하여"] },
+  { "number": 7, "word": "degrade", "meaning_raw": "저하되다, 악화시키다", "meaning_answers": ["저하되다", "악화시키다"] },
+  { "number": 8, "word": "come about", "meaning_raw": "발생하다, 일어나다", "meaning_answers": ["발생하다", "일어나다"] },
+  { "number": 9, "word": "make up for", "meaning_raw": "~을 보상하다, 만회하다", "meaning_answers": ["~을 보상하다", "만회하다"] },
+  { "number": 10, "word": "indefinitely", "meaning_raw": "무기한으로, 무한히", "meaning_answers": ["무기한으로", "무한히"] },
+  { "number": 11, "word": "eliminate", "meaning_raw": "제거하다, 없애다", "meaning_answers": ["제거하다", "없애다"] },
+  { "number": 12, "word": "attainable", "meaning_raw": "달성 가능한, 이룰 수 있는", "meaning_answers": ["달성 가능한", "이룰 수 있는"] },
+  { "number": 13, "word": "in the face of", "meaning_raw": "~에 직면하여, ~에도 불구하고", "meaning_answers": ["~에 직면하여", "~에도 불구하고"] },
+  { "number": 14, "word": "compensate", "meaning_raw": "보상하다, 보완하다", "meaning_answers": ["보상하다", "보완하다"] }
+]

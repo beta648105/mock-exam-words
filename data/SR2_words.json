@@ -1,0 +1,16 @@
+[
+  { "number": 1, "word": "expedition", "meaning_raw": "탐험, 원정", "meaning_answers": ["탐험", "원정"] },
+  { "number": 2, "word": "endure", "meaning_raw": "견디다, 참다", "meaning_answers": ["견디다", "참다"] },
+  { "number": 3, "word": "shortage", "meaning_raw": "부족 (식량 부족 등)", "meaning_answers": ["부족"] },
+  { "number": 4, "word": "encounter", "meaning_raw": "맞닥뜨리다, 우연히 만나다", "meaning_answers": ["맞닥뜨리다", "우연히 만나다"] },
+  { "number": 5, "word": "temperate", "meaning_raw": "온화한", "meaning_answers": ["온화한"] },
+  { "number": 6, "word": "emission", "meaning_raw": "배출, 배출물", "meaning_answers": ["배출", "배출물"] },
+  { "number": 7, "word": "retreat", "meaning_raw": "후퇴하다, 물러나다", "meaning_answers": ["후퇴하다", "물러나다"] },
+  { "number": 8, "word": "desperate", "meaning_raw": "절망적인, 필사적인", "meaning_answers": ["절망적인", "필사적인"] },
+  { "number": 9, "word": "tipping point", "meaning_raw": "전환점, 티핑 포인트 (작은 변화로 엄청난 결과가 발생하게 되는 극적인 순간)", "meaning_answers": ["전환점", "티핑 포인트"] },
+  { "number": 10, "word": "spin out of control", "meaning_raw": "통제 불능이 되다", "meaning_answers": ["통제 불능이 되다"] },
+  { "number": 11, "word": "elevation", "meaning_raw": "고도, 해발", "meaning_answers": ["고도", "해발"] },
+  { "number": 12, "word": "propose", "meaning_raw": "제안하다", "meaning_answers": ["제안하다"] },
+  { "number": 13, "word": "bear responsibility for", "meaning_raw": "~에 대한 책임이 있다", "meaning_answers": ["~에 대한 책임이 있다"] },
+  { "number": 14, "word": "prospect", "meaning_raw": "전망, 예상, 가망", "meaning_answers": ["전망", "예상", "가망"] }
+]

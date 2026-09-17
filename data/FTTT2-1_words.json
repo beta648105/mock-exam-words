@@ -1,0 +1,16 @@
+[
+  { "number": 1, "word": "genuine", "meaning_raw": "진짜의, 진정한", "meaning_answers": ["진짜의", "진정한"] },
+  { "number": 2, "word": "glacier", "meaning_raw": "빙하", "meaning_answers": ["빙하"] },
+  { "number": 3, "word": "permanent", "meaning_raw": "영구적인", "meaning_answers": ["영구적인"] },
+  { "number": 4, "word": "imply", "meaning_raw": "암시하다, 의미하다", "meaning_answers": ["암시하다", "의미하다"] },
+  { "number": 5, "word": "sufficient", "meaning_raw": "충분한", "meaning_answers": ["충분한"] },
+  { "number": 6, "word": "accumulate", "meaning_raw": "축적되다, 모이다", "meaning_answers": ["축적되다", "모이다"] },
+  { "number": 7, "word": "offset", "meaning_raw": "상쇄하다", "meaning_answers": ["상쇄하다"] },
+  { "number": 8, "word": "expand", "meaning_raw": "팽창하다, 확장되다", "meaning_answers": ["팽창하다", "확장되다"] },
+  { "number": 9, "word": "contract", "meaning_raw": "수축하다, 줄어들다", "meaning_answers": ["수축하다", "줄어들다"] },
+  { "number": 10, "word": "accelerate", "meaning_raw": "가속화되다, 빨라지다", "meaning_answers": ["가속화되다", "빨라지다"] },
+  { "number": 11, "word": "document", "meaning_raw": "기록하다", "meaning_answers": ["기록하다"] },
+  { "number": 12, "word": "extent", "meaning_raw": "정도, 규모, 크기", "meaning_answers": ["정도", "규모", "크기"] },
+  { "number": 13, "word": "reduction", "meaning_raw": "감소, 축소", "meaning_answers": ["감소", "축소"] },
+  { "number": 14, "word": "estimate", "meaning_raw": "추정하다, 예상하다", "meaning_answers": ["추정하다", "예상하다"] }
+]

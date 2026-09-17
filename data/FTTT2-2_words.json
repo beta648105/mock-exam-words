@@ -1,0 +1,16 @@
+[
+  { "number": 1, "word": "determinant", "meaning_raw": "결정 요인", "meaning_answers": ["결정 요인"] },
+  { "number": 2, "word": "scarce", "meaning_raw": "부족한, 희소한", "meaning_answers": ["부족한", "희소한"] },
+  { "number": 3, "word": "irrelevant", "meaning_raw": "무관한, 상관없는", "meaning_answers": ["무관한", "상관없는"] },
+  { "number": 4, "word": "render", "meaning_raw": "(어떤 상태가 되게) 만들다", "meaning_answers": ["만들다"] },
+  { "number": 5, "word": "evolve", "meaning_raw": "발달하다, 진화하다", "meaning_answers": ["발달하다", "진화하다"] },
+  { "number": 6, "word": "set in motion", "meaning_raw": "~을 시작하게 하다, ~에 시동을 걸다", "meaning_answers": ["~을 시작하게 하다", "~에 시동을 걸다"] },
+  { "number": 7, "word": "arise", "meaning_raw": "발생하다, 생겨나다", "meaning_answers": ["발생하다", "생겨나다"] },
+  { "number": 8, "word": "enhance", "meaning_raw": "향상시키다, 높이다", "meaning_answers": ["향상시키다", "높이다"] },
+  { "number": 9, "word": "yield", "meaning_raw": "산출량, 수확량", "meaning_answers": ["산출량", "수확량"] },
+  { "number": 10, "word": "sustain", "meaning_raw": "유지하다, 지탱하다", "meaning_answers": ["유지하다", "지탱하다"] },
+  { "number": 11, "word": "persist", "meaning_raw": "지속되다, 계속되다", "meaning_answers": ["지속되다", "계속되다"] },
+  { "number": 12, "word": "adversely", "meaning_raw": "불리하게, 부정적으로", "meaning_answers": ["불리하게", "부정적으로"] },
+  { "number": 13, "word": "incentive", "meaning_raw": "동기, 유인, 장려책", "meaning_answers": ["동기", "유인", "장려책"] },
+  { "number": 14, "word": "afford", "meaning_raw": "제공하다, 주다", "meaning_answers": ["제공하다", "주다"] }
+]
