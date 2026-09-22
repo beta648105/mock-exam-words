@@ -440,14 +440,6 @@ a { color: inherit; }
 .feedback.ok { color: var(--ok); }
 .feedback.bad { color: var(--bad); }
 
-/* 오답일 때 자동으로 넘어가기까지 남은 시간 */
-.feedback .tick {
-  display: block;
-  margin-top: 4px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-dim);
-}
 
 .quizmeta {
   display: flex;

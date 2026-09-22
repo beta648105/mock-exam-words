@@ -10,7 +10,7 @@ const state = {
   card: { deck: [], idx: 0, dir: 'en2ko', onlyUnknown: false, animating: false },
   quiz: {
     queue: [], idx: 0, correct: 0, wrong: [], reverse: false, answered: false,
-    timer: null, countdown: null
+    timer: null
   }
 };
 
@@ -353,37 +353,26 @@ function renderQuestion() {
   $('qFeedback').textContent = '';
   $('qFeedback').className = 'feedback';
   $('qSubmit').textContent = '확인';
+  $('qSubmit').disabled = false;
   $('qSkip').disabled = false;
   q.answered = false;
 }
 
-/* 채점 후 걸어둔 자동 넘김/카운트다운을 모두 해제한다. */
+/* 채점 후 걸어둔 자동 넘김을 해제한다. */
 function clearQuizTimers() {
   clearTimeout(state.quiz.timer);
-  clearInterval(state.quiz.countdown);
   state.quiz.timer = null;
-  state.quiz.countdown = null;
 }
 
-/* seconds 초 뒤 자동으로 다음 문제로. 남은 시간을 같이 보여준다. */
+/* seconds 초 뒤 자동으로 다음 문제로 넘어간다. */
 function autoNext(seconds) {
-  const q = state.quiz;
-  let left = seconds;
-  const tick = $('qTick');
-  if (tick) tick.textContent = left + '초 후 다음 문제';
-
-  q.countdown = setInterval(() => {
-    left--;
-    if (tick && left > 0) tick.textContent = left + '초 후 다음 문제';
-  }, 1000);
-
-  q.timer = setTimeout(nextQuestion, seconds * 1000);
+  state.quiz.timer = setTimeout(nextQuestion, seconds * 1000);
 }
 
 function submitOrNext() {
-  const q = state.quiz;
-  if (q.answered) { clearQuizTimers(); nextQuestion(); return; }
-  // 빈 칸은 채점하지 않음 (오답 후 Enter 가 다음 문제까지 넘어가는 것 방지)
+  // 채점이 끝난 뒤에는 아무것도 하지 않는다. 자동으로 넘어갈 때까지 기다린다.
+  if (state.quiz.answered) return;
+  // 빈 칸은 채점하지 않음
   if (!$('qInput').value.trim()) return;
   grade($('qInput').value);
 }
@@ -401,6 +390,7 @@ function grade(value) {
   q.answered = true;
   input.disabled = true;
   $('qSkip').disabled = true;
+  $('qSubmit').disabled = true;
 
   if (ok) {
     q.correct++;
@@ -422,11 +412,8 @@ function grade(value) {
     fb.className = 'feedback bad';
     fb.innerHTML = '오답 · 정답은' +
       '<span class="correct-answer">' +
-      escapeHTML(q.reverse ? w.word : w.meaning_raw) + '</span>' +
-      '<span class="tick" id="qTick"></span>';
-    $('qSubmit').textContent = '바로 다음 →';
-    $('qSubmit').focus();
-    autoNext(3);
+      escapeHTML(q.reverse ? w.word : w.meaning_raw) + '</span>';
+    autoNext(1);
   }
 }
 
